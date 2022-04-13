@@ -1,0 +1,77 @@
+h2, h5 {
+    text-align: center;
+}
+
+body {
+    font-family: verdana;
+    background-color: darkslategray;
+}
+
+
+p {
+    background-color: whitesmoke;
+    opacity: .8;
+    color: black;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+
+
+.header {
+    height: 200px;
+    background-color: whitesmoke;
+    opacity: .8;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    border-radius: 20px;
+    
+}
+
+.tableau {
+    position: absolute;
+    right: 100px;
+    left: 100px;
+    top: 210px;
+    bottom: 40px;
+}
+
+.footer {
+    position: fixed;
+    font-size: 20px;
+    height: 30px;
+    bottom: 5px;
+    left: 50px;
+    right: 50px;
+    opacity: .6;
+    color: black;
+    background-color: grey;
+    text-align: center;
+    font-style: oblique;
+}
+
+.links {
+     text-align: center;
+    margin-top: 40px;
+}
+
+a {
+   
+    text-decoration:none;
+    color: darkblue;
+    margin: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: darkcyan;
+}
+
+a:visitd {
+    text-decoration: none;
+    color: darkslateblue;
+}

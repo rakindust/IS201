@@ -1,0 +1,69 @@
+.hometitle {
+    color:black;
+}
+
+.button {
+    background-color: darkcyan;
+    color: white;
+    border: none;
+    display: inline-block;
+    border-radius: 5px;
+    opacity: 0.6;
+    transition: 0.3s;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.button:hover {
+    opacity: 1;
+}
+
+.button:active {
+    transition: .5s;
+}
+
+.arrow {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+     transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+    color: gray;
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.myrow::after {
+    content: "";
+  clear: both;
+  display: table;
+}
+
+.mycolumn {
+  float: left;
+  width: 50%;
+}
+
+li {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.aboutme {
+    background-color: lightcyan;
+}
+
+.indexbody {
+    background-color: azure;
+}
+
+.extrapadding {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
