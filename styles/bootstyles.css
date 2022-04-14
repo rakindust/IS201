@@ -12,7 +12,7 @@ p {
     background-color: whitesmoke;
     opacity: .8;
     color: black;
-    font-size: 30px;
+    font-size: 20px;
     padding: 20px;
     text-align: center;
     border-radius: 20px;
@@ -37,7 +37,6 @@ p {
     right: 100px;
     left: 100px;
     top: 210px;
-    bottom: 40px;
 }
 
 .footer {
